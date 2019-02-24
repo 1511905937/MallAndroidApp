@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mymall.cn.edu.ayit.my_mall.kindd">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/nz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女装" />
+
+        <Button
+            android:layout_below="@id/nz"
+            android:id="@+id/sh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="生活用品" />
+        <Button
+            android:layout_below="@id/sh"
+            android:id="@+id/ty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="体育用品" />
+        <Button
+            android:layout_below="@id/ty"
+            android:id="@+id/mz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="美妆" />
+        <Button
+            android:layout_below="@id/mz"
+            android:id="@+id/dz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="电子" />
+        <Button
+            android:layout_below="@id/dz"
+            android:id="@+id/nanz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男装" />
+        <FrameLayout
+            android:id="@+id/frame_kind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/nz"
+            android:layout_alignParentTop="true" >
+        </FrameLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
